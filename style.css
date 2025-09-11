@@ -1,3 +1,7 @@
+body {
+    font-family:sans-serif;
+}
+
 nav {
     display: flex;
     align-items: center;
@@ -7,7 +11,7 @@ nav {
 }
 
 nav img {
-    height: 70px;
+    height: 100px;
 }
 
 .meny {
@@ -15,11 +19,51 @@ nav img {
     gap: 20px;
     list-style: none;
     padding: 0;
-    margin 0;
+    margin: 0;
+}
+
+.meny li {
+    position: relative;
 }
 
 .meny a {
     text-decoration: none;
-    color: #C49A6C;
-    font-weight: bold;
+    color: #333;
+    font-size: 20px;
+    display: block;
+}
+
+.dropdown-innehall {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #234c2E;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    min-width: 150px;
+}
+
+.dropdown-innehall li a {
+    display: block;
+    color: white;
+    margin-top: 20px;
+}
+
+.dropdown-innehall li a:hover {
+    background-color: #C49A6C;
+}
+
+.dropdown:hover .dropdown-innehall {
+    display: block;
+}
+
+.kaffe {
+    text-align: center;
+}
+
+.kaffe-produkter {
+    display: flex;
+    
 }
