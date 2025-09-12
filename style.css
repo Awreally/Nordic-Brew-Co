@@ -1,5 +1,6 @@
 body {
     font-family:sans-serif;
+    text-align: center;
 }
 
 nav {
@@ -68,18 +69,40 @@ nav img {
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 4rem;
-    margin-left: 5rem;
-    margin-right: 5rem;
+    gap: 2rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
 }
 
-.kaffe-produkter img {
-    max-width: 200px;
-    max-height: 300px;
+.produkt {
+    max-width: 300px;
+    box-shadow: 1px 1px 5px;
+}
+
+.produkt img {
+    width: 300px;
+    height: 200px;
+}
+
+.produkt-lista {
+     background-color: #234c2E;
+     padding: 10px 10px;
+     color: #fff;
 }
 
 .produkt:hover {
     transform: scale(1.05);
     transition: transform 0.2s ease;
     box-shadow: 10 px 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.produkt-lista button {
+    background-color: #C49A6C;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
 }
