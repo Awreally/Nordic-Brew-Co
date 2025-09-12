@@ -68,12 +68,18 @@ nav img {
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 1rem;
-    margin-left: 4rem;
-    margin-right: 4rem;
+    gap: 4rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
 }
 
 .kaffe-produkter img {
     max-width: 200px;
     max-height: 300px;
+}
+
+.produkt:hover {
+    transform: scale(1.05);
+    transition: transform 0.2s ease;
+    box-shadow: 10 px 10px 20px rgba(0, 0, 0, 0.2);
 }
