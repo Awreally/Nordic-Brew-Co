@@ -69,6 +69,10 @@ nav img {
     box-shadow: 0px 2px 4px gray;
 }
 
+.info {
+    color: #234c2E;
+}
+
 .home img {
     width: 1200px;
     max-height: 600px;
