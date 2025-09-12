@@ -60,6 +60,19 @@ nav img {
     display: block;
 }
 
+.home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 4rem;
+    margin-right: 4rem;
+}
+
+.home img {
+    max-width: 1200px;
+    max-height: 600px;
+}
+
 .kaffe {
     text-align: center;
 }
