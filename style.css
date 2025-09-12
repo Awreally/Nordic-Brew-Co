@@ -29,7 +29,7 @@ nav img {
 
 .meny a {
     text-decoration: none;
-    color: #333;
+    color: #234c2E;
     font-size: 20px;
     display: block;
 }
@@ -66,10 +66,11 @@ nav img {
     justify-content: center;
     margin-left: 4rem;
     margin-right: 4rem;
+    box-shadow: 0px 2px 4px gray;
 }
 
 .home img {
-    max-width: 1200px;
+    width: 1200px;
     max-height: 600px;
 }
 
