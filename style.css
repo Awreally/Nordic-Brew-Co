@@ -65,5 +65,15 @@ nav img {
 
 .kaffe-produkter {
     display: flex;
-    
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+}
+
+.kaffe-produkter img {
+    max-width: 200px;
+    max-height: 300px;
 }
